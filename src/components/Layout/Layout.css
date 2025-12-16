@@ -1,0 +1,147 @@
+/* HEADER */
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 25%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* LINKS DEL HEADER */
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* LINK ACTIVO */
+.nav-link.active {
+  background: #96c095;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Configuracion CSS footer */
+.footer {
+  width: 100%;
+  background: #f4f4f4;
+  padding: 1.5rem 2rem;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 55%;
+}
+
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-email {
+  font-size: 0.95rem;
+  color: #000;
+  margin: 0;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.footer-icons a {
+  font-size: 1.6rem;
+  color: #000;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.footer-icons a:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+
+  /* HEADER */
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  header img {
+    width: 60px;
+    height: 60px;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 6px 10px;
+  }
+
+  /* FOOTER */
+  .footer-content {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-email {
+    font-size: 0.9rem;
+  }
+
+  .footer-icons {
+    gap: 1rem;
+  }
+
+  .footer-icons a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  header {
+    padding: 18px;
+  }
+
+  header ul {
+    gap: 16px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .footer-content {
+    gap: 20px;
+  }
+}
