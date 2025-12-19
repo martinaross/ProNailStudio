@@ -75,7 +75,7 @@ const Home = () => {
           <div className="tiny-logo">MN</div>
           <h1 className="main-title">Martina Nails</h1>
           <p className="description-text">
-            ¡Hola! Soy Martina, manicurista profesional con <strong>5 años de experencia</strong>, busco llevar color, cuidado y estilo a cada persona.
+            ¡Hola! Soy Martina, manicurista profesional con <strong>5 años de experencia. </strong>Busco llevar color, cuidado y estilo a cada persona.
           </p>
           <a href="https://wa.me/5492614663643" target="_blank">
             <button className="book-now-button">
@@ -181,7 +181,7 @@ const Home = () => {
         <div className="about-us-text-wrapper">
           <h2 className="about-us-title">Bienvenida</h2>
           <p className="about-us-paragraph">
-            Martina Nails, nace de la idea de transformar el diseño de uñas en una experiencia creativa y cercana, mezclando técnica, arte y dedicación. Ya sea que busques una manicura simple y elegante o diseños artísticos.
+            Martina Nails nace de la idea de transformar el diseño de uñas en una experiencia creativa y cercana, mezclando técnica, arte y dedicación, ya sea que busques una manicura simple y elegante o diseños artísticos.
           </p>
           <p className="about-us-paragraph2">
             ¡Gracias por tu apoyo!
