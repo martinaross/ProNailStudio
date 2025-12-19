@@ -193,3 +193,10 @@ header ul {
     font-size: 1.6rem;
   }
 }
+
+/* Ocultar header en mobile */
+@media (max-width: 768px) {
+  header {
+    display: none;
+  }
+}
