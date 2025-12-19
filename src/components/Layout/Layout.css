@@ -145,3 +145,51 @@ header ul {
     gap: 20px;
   }
 }
+
+@media (max-width: 768px) {
+
+  /* ===== OCULTAR "INICIO" ===== */
+  header ul li:first-child {
+    display: none;
+  }
+
+  /* ===== HEADER LAYOUT ===== */
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+  }
+
+  /* LOGO CENTRADO */
+  header img {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+  }
+
+  /* CONTENEDOR NAV */
+  header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* LISTA DE LINKS (oculta visualmente, solo queda lo necesario) */
+  header ul {
+    display: none;
+  }
+
+  /* ===== ICONO WHATSAPP ===== */
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-icons a {
+    font-size: 1.6rem;
+  }
+}

@@ -3,15 +3,15 @@ import { useEffect, useRef } from "react";
 import { useState } from "react";
 
 import { Layout } from "../../components/Layout/Layout";
-// Reemplaza estas rutas con las imágenes que usarás:
+
 import aboutUsImage from "../../assets/uña.jpg";
 import aboutUsImage2 from "../../assets/estructura.png"
-import galleryPhoto1 from "../../assets/foto1.png"; // French
-import galleryPhoto2 from "../../assets/foto2.png"; // Milky
-import galleryPhoto3 from "../../assets/foto3.png"; // Diseño 3D
-import galleryPhoto4 from "../../assets/foto4.png"; // Diseño 3D
-import galleryPhoto5 from "../../assets/foto5.png"; // Diseño 3D
-import galleryPhoto6 from "../../assets/foto6.png"; // Diseño 3D
+import galleryPhoto1 from "../../assets/foto1.png";
+import galleryPhoto2 from "../../assets/foto2.png";
+import galleryPhoto3 from "../../assets/foto3.png";
+import galleryPhoto4 from "../../assets/foto4.png";
+import galleryPhoto5 from "../../assets/foto5.png";
+import galleryPhoto6 from "../../assets/foto6.png";
 
 
 const Home = () => {
@@ -19,8 +19,7 @@ const Home = () => {
   const carouselRef = useRef(null);
   let isAnimating = false;
 
-  const slideWidth = 240; // ancho de UNA imagen + gap
-
+  const slideWidth = 240;
   const nextSlide = () => {
     if (isAnimating) return;
     isAnimating = true;
@@ -70,7 +69,7 @@ const Home = () => {
 
   return (
     <Layout>
-      {/* (HEADER) */}
+      {/* HEADER */}
       <section className="salon-header-container">
         <div className="header-content">
           <div className="tiny-logo">MN</div>
@@ -111,7 +110,7 @@ const Home = () => {
 
       {/* Sección de Servicios */}
       <div className="services-section">
-        <h2 className="services-title">Services</h2>
+        <h2 className="services-title">Servicios</h2>
 
         <div className="services-accordion">
 
@@ -184,8 +183,8 @@ const Home = () => {
           <p className="about-us-paragraph">
             Martina Nails, nace de la idea de transformar el diseño de uñas en una experiencia creativa y cercana, mezclando técnica, arte y dedicación. Ya sea que busques una manicura simple y elegante o diseños artísticos.
           </p>
-          <p className="about-us-paragraph">
-            Mi misión es proveer todo lo que necesites para sentirte y verte mejor, manteniéndonos al día con las últimas tendencias de uñas. ¡Gracias por tu apoyo!
+          <p className="about-us-paragraph2">
+            ¡Gracias por tu apoyo!
           </p>
         </div>
         <div className="about-us-image2">

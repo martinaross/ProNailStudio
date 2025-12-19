@@ -86,6 +86,10 @@ body {
 }
 
 /*2. ABOUT US*/
+.about-us-paragraph2 {
+  font-weight: 800;
+  color: #2e694f;
+}
 
 .about-us-container {
   padding: 3rem;
