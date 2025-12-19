@@ -1,5 +1,5 @@
 import "./Layout.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 import { NavLink } from "react-router-dom";
 
 const Layout = (props) => {

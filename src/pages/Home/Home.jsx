@@ -4,14 +4,14 @@ import { useState } from "react";
 
 import { Layout } from "../../components/Layout/Layout";
 
-import aboutUsImage from "../../assets/uña.jpg";
+import aboutUsImage from "../../assets/uña.webp";
 import aboutUsImage2 from "../../assets/estructura.png"
-import galleryPhoto1 from "../../assets/foto1.png";
-import galleryPhoto2 from "../../assets/foto2.png";
-import galleryPhoto3 from "../../assets/foto3.png";
-import galleryPhoto4 from "../../assets/foto4.png";
-import galleryPhoto5 from "../../assets/foto5.png";
-import galleryPhoto6 from "../../assets/foto6.png";
+import galleryPhoto1 from "../../assets/foto1.webp";
+import galleryPhoto2 from "../../assets/foto2.webp";
+import galleryPhoto3 from "../../assets/foto3.webp";
+import galleryPhoto4 from "../../assets/foto4.webp";
+import galleryPhoto5 from "../../assets/foto5.webp";
+import galleryPhoto6 from "../../assets/foto6.webp";
 
 
 const Home = () => {
