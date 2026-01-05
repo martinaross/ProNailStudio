@@ -12,6 +12,7 @@ import galleryPhoto3 from "../../assets/foto3.webp";
 import galleryPhoto4 from "../../assets/foto4.webp";
 import galleryPhoto5 from "../../assets/foto5.webp";
 import galleryPhoto6 from "../../assets/foto6.webp";
+import galleryPhoto7 from "../../assets/foto7.webp"
 
 
 const Home = () => {
@@ -101,6 +102,7 @@ const Home = () => {
               <img src={galleryPhoto4} alt="" />
               <img src={galleryPhoto5} alt="" />
               <img src={galleryPhoto6} alt="" />
+              <img src={galleryPhoto7} alt="" />
             </div>
           </div>
 
