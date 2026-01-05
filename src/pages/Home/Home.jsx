@@ -101,18 +101,19 @@ const Home = () => {
 
           <div className="carousel-window">
             <div className="carousel-track" ref={carouselRef}>
-              <img src={galleryPhoto1} alt="" />
-              <img src={galleryPhoto2} alt="" />
-              <img src={galleryPhoto3} alt="" />
-              <img src={galleryPhoto4} alt="" />
-              <img src={galleryPhoto5} alt="" />
               <img src={galleryPhoto6} alt="" />
               <img src={galleryPhoto7} alt="" />
+              <img src={galleryPhoto4} alt="" />
               <img src={galleryPhoto8} alt="" />
               <img src={galleryPhoto9} alt="" />
               <img src={galleryPhoto10} alt="" />
+              <img src={galleryPhoto2} alt="" />
               <img src={galleryPhoto11} alt="" />
               <img src={galleryPhoto12} alt="" />
+              <img src={galleryPhoto1} alt="" />
+              <img src={galleryPhoto3} alt="" />
+              <img src={galleryPhoto5} alt="" />
+
             </div>
           </div>
 
