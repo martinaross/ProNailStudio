@@ -18,6 +18,7 @@ import galleryPhoto9 from "../../assets/foto9.webp"
 import galleryPhoto10 from "../../assets/foto10.webp"
 import galleryPhoto11 from "../../assets/foto11.webp"
 import galleryPhoto12 from "../../assets/foto12.webp"
+import galleryPhoto13 from "../../assets/foto13.webp"
 
 
 const Home = () => {
@@ -101,10 +102,11 @@ const Home = () => {
 
           <div className="carousel-window">
             <div className="carousel-track" ref={carouselRef}>
-              <img src={galleryPhoto6} alt="" />
+
               <img src={galleryPhoto7} alt="" />
               <img src={galleryPhoto4} alt="" />
               <img src={galleryPhoto8} alt="" />
+              <img src={galleryPhoto6} alt="" />
               <img src={galleryPhoto9} alt="" />
               <img src={galleryPhoto10} alt="" />
               <img src={galleryPhoto2} alt="" />
@@ -113,6 +115,8 @@ const Home = () => {
               <img src={galleryPhoto1} alt="" />
               <img src={galleryPhoto3} alt="" />
               <img src={galleryPhoto5} alt="" />
+              <img src={galleryPhoto13} alt="" />
+
 
             </div>
           </div>
